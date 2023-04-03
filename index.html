@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal Portfolio Website using HTML, CSS, JavaScript By Aryan Mehta!!"
+    />
+    <title>Portfolio Website: Akhil Pratap Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/eb8afed685.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#Home"><img src="Images/My project-1.png" class="logo" /></a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+    </div>
+    <div class="name">
+      <div class="container">
+        <div class="header-text">
+          <h1>Hi, I'm <span>Akhil Pratap Singh</span></h1>
+          <p>Aspiring Web-Developer</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/akhil.jpg" alt="userImage" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi, My name is <em>Akhil Pratap Singh</em> and I am a Student at VIT,
+              Bhopal. I am passionate about coding and development and I am
+              always eager to learn new technologies and techniques. Through
+              this portfolio, I showcase some of my past and current projects as
+              well as my skills and experiences. Please feel free to contact me
+              for any opportunities.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('certification')">
+                Certifications
+              </p>
+              <p class="tab-links" onclick="opentab('hobby')">Hobbies & Languages</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                  <li>
+                    <span>2020-current</span><br />B.tech CSE Core at VIT, Bhopal<br/><b>Grade:</b> 8.4CGPA
+                  </li>
+                  <li>
+                    <span>2017-2019</span><br />St. Anthony Inter College, Pratapgarh<br/><b>12th Grade:</b> 63%
+                  </li>
+                  <li>
+                    <span>Till 2017</span><br />High School at St. Anthony Inter College
+                    , Pratapgarh<br/><b>10th Grade:</b> 79%
+                  </li>
+                </ul>
+              </div>
+            <div class="tab-contents" id="certification">
+              <ul>
+                <li><span>Data Analytics</span><br />Fundamentals of Data Analytics, Futureskills prime.</li>
+                <li>
+                  <span>Data Science</span><br />Microlearning Course in Data Science, Board Infinity.
+                </li>
+                <li>
+                  <span>ESG Virtual Experience Program</span><br />TATA Consultancy Services.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="hobby">
+              <ul>
+                <li>
+                  <span>Hobbies</span><br/>Reading Books<br/>Web Exploring
+                </li>
+                
+                <li>
+                  <span>Languages Known</span><br />English<br/>Hindi
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Web Design</h2>
+            <p>
+              <h5>I Work on JavaScript library called <b>ReactJs</b>. I have Projects listed below:<br/></h5>
+              <li><b>Crypto Tracker App</b> using ReactJs(Next.js) which is currently under development.<br/></li>
+              <li><b>SkyCast App</b> Made using ReactJs for checking weather of different locations.<br/></li>
+              <li><b>TrackMaster App</b> using ReactJs for helping users prioritize their daily responsibilities, set goals, and track progress towards completion.</li>
+
+            </p>
+            <a href="https://github.com/AkhilPratapSingh09" target = "_blank"class="btn btn2">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Technical Knownledge</h2>
+            <p>
+              <li>Java</li>
+              <li>Next.js</li>
+              <li>React.js</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </p>
+            <!-- <a href="#" class="btn btn2">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Problem Solving</h2>
+            <p>
+              <h3>Leetcode:<br/></h3>
+              Questions Solved: 120 and counting<br/>
+              <h3>GeeksforGeeks:<br/></h3>
+              Question Solved: 150 and counting<br/>
+              <h3>HackerRank:<br/></h3>
+              <li>3 Star Problem Solving<br/></li>
+              <li>3 Star Java<br/></li>
+              <li>4 Star Python<br/></li>
+              <li>30 Days Of Code<br/></li>
+            </p>
+            <a href="https://leetcode.com/thakurapsinghsuryavanshi/" target="_blank" class="btn btn2"
+              >Leetcode</a
+            
+            >
+            <a href="https://auth.geeksforgeeks.org/user/thakurapsinghsuryavanshi" target="_blank" class="btn btn4">GfG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/crypto.png" alt="Project Image" />
+            <div class="layer">
+              <h3>Crypto Tracker</h3>
+              <p>
+                This crypto tracker app in ReactJS would be a web application that allows users to monitor and track the prices and other important metrics of various cryptocurrencies, such as Bitcoin, Ethereum, Litecoin, and more.
+
+
+              </p>
+              <a href="https://github.com/AkhilPratapSingh09/crptotrackerr" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/wth.png" alt="Project Image" />
+            <div class="layer">
+              <h3>SkyCast App</h3>
+              <p>
+                SkyCast is a weather application built using the React.js JavaScript library. It provides users with up-to-date weather information for a specific location, including the current temperature, hourly forecast, daily forecast, and weather conditions.
+              </p>
+              <a href="https://react-weather-app-master-rho.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/td.png" alt="Project Image" />
+            <div class="layer">
+              <h3>TaskMaster</h3>
+              <p>
+                A Todo list application built with React.js is a simple yet effective tool for organizing and managing tasks. This type of app can help users prioritize their daily responsibilities, set goals, and track progress towards completion.
+              </p>
+              <a
+                href="https://react-weather-app-master-rho.vercel.app/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/AkhilPratapSingh09" target="_blank" class="btn"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i>thakurapsinghsuryavanshi@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+917052100733</p>
+            <h3>Profiles</h3>
+            <div class="social-icons">
+              <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/akhil-pratap-singh-790725209"
+                target="_blank"
+                ><!--<i class="fa-brands fa-linkedin"></i
+              >-->
+                <img src="Images/l1.svg" alt="" class="image"
+              /></a>
+              <a href="https://github.com/AkhilPratapSingh09" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <!-- <a href="https://www.instagram.com/aryan.21.02/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a> -->
+              <a href="https://leetcode.com/thakurapsinghsuryavanshi/ target="_blank"
+                ><img src="Images/leet3.png" alt="" class="image"
+              /></a>
+              <a href="https://www.hackerrank.com/akhil_pratap2020" target="_blank"
+                ><img src="Images/h1.svg" alt="" class="image"
+              /></a>
+            </div>
+            <a href="Aryan resume.docx" download class="btn btn2"
+              >Download Resume</a
+            >
+            <a
+              href="https://linktr.ee/akhil0905"
+              target="_blank"
+              class="btn btn3"
+              >Other Links</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <sup>&copy;</sup> Akhil Pratap Singh</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxXuc7w_DrAOxZfjFq1o7X3_QbIxEd9ofKVJ-cnaoRIQkVbdX1VaXPbFiC57pKGpaOgkw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+      let docTitle = document.title;
+      window.addEventListener("blur", () => {
+        document.title = "Thank You for Viewing😊";
+      });
+      window.addEventListener("focus", () => {
+        document.title = docTitle;
+      });
+    </script>
+  </body>
+</html>
