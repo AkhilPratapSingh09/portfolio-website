@@ -59,7 +59,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: rgb(245, 73, 73);
+    background: #ca7a18;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -79,7 +79,7 @@ width: 100%;
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #ca7a18;
 }
 
 
@@ -127,7 +127,7 @@ width: 100%;
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #ca7a18;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -143,7 +143,7 @@ width: 100%;
     font-size: 14px;
 }
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #ca7a18;
     font-size: 18px;
 }
 .tab-contents{
@@ -221,7 +221,7 @@ width: 100%;
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),#ca7a18);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -243,7 +243,7 @@ width: 100%;
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #ca7a18;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -264,7 +264,7 @@ width: 100%;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #ca7a18;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -272,7 +272,7 @@ width: 100%;
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #ca7a18;
 }
 .contact-left h3{
     margin-top: 20px;
@@ -291,7 +291,7 @@ width: 100%;
     padding: 5px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #ca7a18;
     margin-right: 15px;
     font-size: 25px;
 
@@ -314,26 +314,26 @@ width: 100%;
     border-radius: 50%; */
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #ca7a18;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #ca7a18;
     transition: transform 0.5s;
 }
 .btn.btn2:hover{
     transform: translateY(-5px);
 }
 /* change */
-.btn.btn4{
+/* .btn.btn4{
     display: inline-block;
     background: #ff004f;
     transition: transform 0.5s;
 }
 .btn.btn4:hover{
     transform: translateY(-5px);
-}
+} */
 /* over */
 .contact-right form{
     width: 100%;
@@ -358,12 +358,13 @@ form .btn2{
     cursor: pointer;
 }
 /* change */
-form .btn4{
+/* .btn.btn2{
     padding: 14px 60px;
     font-size: 18px;
+    display: flex;
     margin-top: 20px;
     cursor: pointer;
-}
+} */
 /* over */
 .copyright{
     width: 100%;
@@ -393,6 +394,17 @@ nav .fa-solid{
         /* display: none; */
         /* height: 100vh; */
     }
+    .btn.btn2{
+        /* padding: 14px 60px; */
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 8%;
+        width: 174px;
+        /* margin-top: 20px;s */
+        cursor: pointer;
+    }
     .header-text h1{
         font-size: 30px;
     }
@@ -401,7 +413,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #ca7a18;
         position: fixed;
         top: 0;
         right: -200px;
@@ -469,7 +481,7 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: #ff004f;
+    background-color: #ca7a18;
     /* outline: 1px solid slategrey; */
   }
 
@@ -480,7 +492,7 @@ body::-webkit-scrollbar {
     margin-top: -40px;
     width: 55%;
     margin-left: 0px;
-    background: #ff004f;
+    background: #ca7a18;
     transition: transform 0.5s;
 }
 .btn.btn3:hover{
